@@ -1,4 +1,5 @@
 import '../styles/Footer.css';
+import { Link} from 'react-router-dom';
 
 // nav bar and seciton above
 function Footer() {
@@ -9,8 +10,12 @@ function Footer() {
           {/* <a href="/">TEST </a>
           <a href="/">TEST </a>
           <a href="/">TEST </a> */}
+          <Link to="/" style={{ margin: "10px" }}>Home</Link>
+          <Link to="/about" style={{ margin: "10px" }}>About</Link>
+          <Link to="/projects" style={{ margin: "10px" }}>Projects</Link>
+          <Link to="/contact" style={{ margin: "10px" }}>Contact</Link>
           <p>Designed and Developed by Ronni Hartlage</p>
-          <p>Last updated February 2022</p>
+          <p>Last updated March 2022</p>
       </div>
     </div>
   );

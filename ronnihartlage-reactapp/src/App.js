@@ -1,5 +1,4 @@
-// BrowserRouter -> HashRouter
-import { Route, HashRouter as Router, Routes, Link } from 'react-router-dom';
+import { Route, HashRouter as Router, Routes} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -15,7 +14,6 @@ function App() {
       <Router>
         <Header />
       {/* other possible sections: education, experience */}
-      {/* <Router> */}
         <Routes>
             <Route exact path="/" element={<Home/>}/>
             <Route path="/projects" element={<Projects/>}/>
