@@ -1,3 +1,14 @@
 .Footer {
     text-align: center;
+    background-color: #7e29ff;
+    margin-top: 25px;
+    padding: 30px 30px 15px;
+}
+
+.footerLinks, .footerLinks a {
+    color: white;
+}
+
+.footerLinks a { 
+    margin-bottom: 20px !important;
 }
