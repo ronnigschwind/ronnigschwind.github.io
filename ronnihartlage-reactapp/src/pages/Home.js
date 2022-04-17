@@ -1,6 +1,7 @@
 import { Link} from 'react-router-dom';
 import '../styles/Home.css'
-import Img from '../images/RH.png';
+
+import Hero from '../components/Hero';
 
 // purple -> #7e29ff
 // blue -> #29b0ff
@@ -9,6 +10,7 @@ import Img from '../images/RH.png';
 function Home() {
     return (
       <div className="Home">
+        <Hero></Hero>
         <p style={{ paddingLeft: "20px" }}>Home page in progress...</p>
 
         <p style={{ padding: "20px" }}>In addition to being a Student and Web Developer, I am also a Residential Assistant (RA), 
@@ -34,26 +36,24 @@ function Home() {
         </div>
         <div className="techSkills" style={{ paddingLeft: "20px" }}>
           <h2 style={{ textDecoration: "underline" }}>Technical Skills</h2>
-          <p><p style={{ display: "inline", fontWeight: "bold" }}>Programming Languages:</p> Visual Basic, Python, Java, C++, C, Ruby</p>
-          <p><p style={{ display: "inline", fontWeight: "bold" }}>Web Development:</p> HTML, CSS, JavaScript, PHP, Wordpress, Wix, WP Engine</p>
-          <p><p style={{ display: "inline", fontWeight: "bold" }}>App Development:</p> ASP.NET, React, Swift, Xcode, Android Studio</p>
+          <p><div style={{ display: "inline", fontWeight: "bold" }}>Programming Languages:</div> Visual Basic, Python, Java, C++, C, Ruby</p>
+          <p><div style={{ display: "inline", fontWeight: "bold" }}>Web Development:</div> HTML, CSS, JavaScript, PHP, Wordpress, Wix, WP Engine</p>
+          <p><div style={{ display: "inline", fontWeight: "bold" }}>App Development:</div> ASP.NET, React, Swift, Xcode, Android Studio</p>
           <br/>
         </div>
         <div className="edu" style={{ paddingLeft: "20px" }}>
           <h2 style={{ textDecoration: "underline" }}>Education</h2>
-          <p><p style={{ display: "inline", fontWeight: "bold" }}>Wright State University:</p> Graduating April 2022</p>
+          <p><div style={{ display: "inline", fontWeight: "bold" }}>Wright State University:</div> Graduating April 2022</p>
           <p>Bachelors of Science in Computer Science, Minor in Mathematics</p>
-          {/* <p>GPA: 3.8/4.0, Dayton, OH</p> */}
-          {/* <br/> */}
-          <p><p style={{ display: "inline", fontWeight: "bold" }}>College Credit Plus Program:</p> Aug. 2017 - May 2019</p>
+
+          <p><div style={{ display: "inline", fontWeight: "bold" }}>College Credit Plus Program:</div> Aug. 2017 - May 2019</p>
           <p>Owens Commmunity College</p>
           <p>Terra State Commmunity College</p>
-          {/* <br/> */}
-          <p><p style={{ display: "inline", fontWeight: "bold" }}>Oak Harbor High School:</p> Graduated 2019</p>
+
+          <p><div style={{ display: "inline", fontWeight: "bold" }}>Oak Harbor High School:</div> Graduated 2019</p>
           <p>High School Diploma, Valedictorian</p>
           <br/><br/>
         </div>
-
         <Link to="/about" style={{ marginLeft: "20px", color: "white", background: "black", padding: "10px", borderRadius: "8px"}}>More About Me</Link>
       </div>
     );

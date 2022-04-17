@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-      {/* other possible sections: education, experience */}
         <Routes>
             <Route exact path="/" element={<Home/>}/>
             <Route path="/projects" element={<Projects/>}/>
