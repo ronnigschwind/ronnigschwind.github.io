@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 // blue -> #29b0ff
 // green -> #40ff2b
 
+// Home page content
 function Home() {
     return (
       <div className="Home">
