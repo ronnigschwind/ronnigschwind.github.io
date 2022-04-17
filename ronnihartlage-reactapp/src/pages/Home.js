@@ -10,7 +10,7 @@ import Hero from '../components/Hero';
 function Home() {
     return (
       <div className="Home">
-        <Hero></Hero>
+        <Hero/>
         <p style={{ paddingLeft: "20px" }}>Home page in progress...</p>
 
         <p style={{ padding: "20px" }}>In addition to being a Student and Web Developer, I am also a Residential Assistant (RA), 
