@@ -11,7 +11,7 @@ function Footer() {
           <Link to="/projects" style={{ margin: "10px" }}>Projects</Link>
           <Link to="/contact" style={{ margin: "10px" }}>Contact</Link>
           <p style={{ marginTop: "35px" }}>Designed and Developed by Ronni Hartlage</p>
-          <p>Last updated March 2022</p>
+          <p>Last updated May 2022</p>
       </div>
     </div>
   );
