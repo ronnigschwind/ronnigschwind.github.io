@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b6fea95.css",
-    "main.js": "/static/js/main.c05f569a.js",
+    "main.css": "/static/css/main.46ea2b8b.css",
+    "main.js": "/static/js/main.da948c19.js",
     "static/js/787.90c774ea.chunk.js": "/static/js/787.90c774ea.chunk.js",
+    "static/media/graduation-headshot.JPG": "/static/media/graduation-headshot.2d5bf88e1b29d06b19ac.JPG",
     "static/media/soccer.png": "/static/media/soccer.a64b458253724a70502b.png",
     "static/media/graduation.jpeg": "/static/media/graduation.9dab4789b8eab246a380.jpeg",
-    "static/media/me.jpg": "/static/media/me.ce339b69ea9224916e72.jpg",
     "static/media/engagement-photo.jpg": "/static/media/engagement-photo.e0bf79e0d7a6314bf4ad.jpg",
     "index.html": "/index.html",
-    "main.2b6fea95.css.map": "/static/css/main.2b6fea95.css.map",
-    "main.c05f569a.js.map": "/static/js/main.c05f569a.js.map",
+    "main.46ea2b8b.css.map": "/static/css/main.46ea2b8b.css.map",
+    "main.da948c19.js.map": "/static/js/main.da948c19.js.map",
     "787.90c774ea.chunk.js.map": "/static/js/787.90c774ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b6fea95.css",
-    "static/js/main.c05f569a.js"
+    "static/css/main.46ea2b8b.css",
+    "static/js/main.da948c19.js"
   ]
 }
