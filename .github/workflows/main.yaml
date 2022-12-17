@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get Repo
+      uses: actions/checkout@v2
+
+    - name: Deploy
+      run: |
+        cd ronni*
+        npm run deploy
+      
