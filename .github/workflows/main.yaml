@@ -24,7 +24,8 @@ jobs:
       run: cd ronni*
     
     - name: Install NPM packages
-      run: npm ci
+      # run: npm ci
+      run: npm install
     
     - name: Build project
       run: npm run build
