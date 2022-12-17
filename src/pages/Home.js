@@ -55,7 +55,7 @@ function Home() {
           <p>High School Diploma, Valedictorian</p>
           <br/><br/>
         </div>
-        <Link to="/about" style={{ marginLeft: "20px", color: "white", background: "black", padding: "10px", borderRadius: "8px"}}>More About Me</Link>
+        <Link to="/about" className='glowOnHover' style={{ marginLeft: "20px", color: "white", background: "black", padding: "10px", borderRadius: "8px"}}>More About Me</Link>
       </div>
     );
   }

@@ -11,10 +11,10 @@ function Hero() {
             <div className="heroText">
                 <h1 style={{ width: "100%", color: "white" }}>Hey, I'm Ronni Gschwind</h1>
                 <h2 style={{ width: "100%", color: "white", paddingBotttom: "10px", lineHeight: "2" }}>Web Developer at &nbsp;
-                <a href="https://www.artunlimitedusa.com/" target="_blank" rel="noreferrer" style={{ color: "white", background: "black", 
+                <a href="https://www.artunlimitedusa.com/" className='glowOnHover' target="_blank" rel="noreferrer" style={{ color: "white", background: "black", 
                 padding: "5px", borderRadius: "8px" }}>Art Unlimited</a> </h2>
                 <div style={{ marginTop: "40px" }}>
-                    <Link to="/projects" style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", 
+                    <Link to="/projects" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", 
                     marginTop: "10px", fontWeight: "bold" }}>Check out my projects</Link>
                 </div>
             </div>
@@ -25,7 +25,7 @@ function Hero() {
             <img src={Me} alt="me"/>
             </div>
         </div>
-        <Link to="/contact" style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", fontWeight: "bold" }}>
+        <Link to="/contact" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", fontWeight: "bold" }}>
             Contact Me</Link>
     </div>
     );
