@@ -1,0 +1,31 @@
+.Header {
+    text-align: center;
+    background-color: #7e29ff;
+}
+.headerLinks a {
+    color: white;;
+}
+.headerName {
+    display: inline-block; 
+    margin-right: 100px; 
+    color: white;
+    /* height: 100px; */
+}
+.headerImg {
+    width: 50%;
+    height: 500px;
+}
+
+@media (max-width: 830px) {
+    .headerContent {
+        display: block;
+    }
+    .headerName {
+        height: 25px;
+        margin-right: 0;
+    }
+    .headerImg {
+        margin: 90px auto 0;
+        width: 100%;
+    }
+}
