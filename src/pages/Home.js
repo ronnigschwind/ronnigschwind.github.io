@@ -1,16 +1,18 @@
 import { Link} from 'react-router-dom';
 import '../styles/Home.css'
 
+import Banner from '../components/Banner';
 import Hero from '../components/Hero';
 
 // purple -> #7e29ff
 // blue -> #29b0ff
-// green -> #40ff2b
+// green -> #18cd3c
 
 // Home page content
 function Home() {
     return (
       <div className="Home">
+        <Banner/>
         <Hero/>
         <p style={{ paddingLeft: "20px" }}>Home page in progress...</p>
 

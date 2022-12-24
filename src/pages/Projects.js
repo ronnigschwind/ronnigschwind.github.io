@@ -1,9 +1,9 @@
-
+import Banner from "../components/Banner";
 
 function Projects() {
     return (
       <div className="Projects">
-        <p>Projects page in progress...</p>
+        <Banner/>
 
         {/* ideas: - links to sites I've made
                    - list projects I've done using a varitey

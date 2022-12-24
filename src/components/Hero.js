@@ -22,7 +22,7 @@ function Hero() {
             {/* possibly put divs outlined with other colors behind image */}
             {/* <div style={{ border: "2px solid #29b0ff", height: "400px", width: "424px", position: "absolute" }}></div>
             <div style={{ border: "2px solid #40ff2b", height: "400px", width: "424px", position: "absolute", transform: "rotate(20deg)" }}></div> */}
-            <img src={Me} alt="me"/>
+            <img src={Me} style={{boxShadow: "15px 15px 10px #01a4ff"}} alt="me"/>
             </div>
         </div>
         <Link to="/contact" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", fontWeight: "bold" }}>

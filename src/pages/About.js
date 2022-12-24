@@ -1,9 +1,10 @@
 // import Slideshow from '../components/Slideshow';
+import Banner from "../components/Banner";
 
 function About() {
     return (
       <div className="About">
-        <p>About page in progress...</p>
+        <Banner/>
         {/* commented out for not since imgs are a bit distorted when forced to be the same size */}
         {/* could list involvement individually and include images alongside each different thing */}
         {/* ideas: - sliders with images, travel/soccer/family */}
