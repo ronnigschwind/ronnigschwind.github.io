@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkronnigschwind_reactapp=self.webpackChunkronnigschwind_reactapp||[]).push([[923],{923:function(e,n,r){r.r(n);var s=r(184);n.default=function(){return(0,s.jsx)("div",{className:"Projects",children:(0,s.jsx)("p",{children:"Projects page in progress..."})})}}}]);
-//# sourceMappingURL=923.0ef6f6fd.chunk.js.map
