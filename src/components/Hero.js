@@ -25,8 +25,7 @@ function Hero() {
             <img src={Me} style={{boxShadow: "15px 15px 10px #01a4ff"}} alt="me"/>
             </div>
         </div>
-        <Link to="/contact" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", fontWeight: "bold" }}>
-            Contact Me</Link>
+        <Link to="/contact" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", fontWeight: "bold" }}>Contact Me</Link>
     </div>
     );
 }

@@ -3,28 +3,47 @@ import '../styles/Home.css'
 
 import Banner from '../components/Banner';
 import Hero from '../components/Hero';
+import Accordion from '../components/Accordion';
 
 // purple -> #7e29ff
 // blue -> #29b0ff
 // green -> #18cd3c
 
-// Home page content
+const workExperience = [
+  {
+    title: 'Web Developer',
+    description: {
+      bulletOne: 'Develop responsive websites using HTML, CSS, JavaScript, Wordpress, and React.',
+      bulletTwo: 'Continuously innovating web development processes to increase efficiency.',
+      bulletThree: 'Spearheading the development of a team lead role for the web developers.',
+      bulletFour: 'Enhanced and refined over 50 client websites.',
+      bulletFive: 'Built 9 websites as the lead developer from scratch for clients including two full stack websites using React.',
+      bulletSix: 'Created template websites that are marketed by the sales team to prospective clients.'
+    }
+  }
+]
+
 function Home() {
     return (
       <div className="Home">
         <Banner/>
         <Hero/>
-        <p style={{ paddingLeft: "20px" }}>Home page in progress...</p>
 
-        <p style={{ padding: "20px" }}>I am a Web Developer and recent graduate of Wright State University (WSU). I graduated this 
-        Spring with a Bachelor of Science in Computer Science and a minor in Mathematics. I graduated in 2019 from Oak Harbor High 
-        School as Valedictorian while taking classes through both Terra State Community College and Owens Community College. On this 
-        page you can learn more about my work experience and education, more of personal information about me on the "About" page, 
-        see some of my past and current projects on the "Projects" page, and more info on how to contact me on the "Contact" page. 
-        Thanks for checking out my website! </p>
+        <div style={{textAlign: 'center', padding: '0 20px', maxWidth: 1200, margin: 'auto'}}>
+          <h2 style={{fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Brief Overview</h2>
+          <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div>
+          <p style={{margin: '35px auto', maxWidth: 650, fontSize: 20}}>Firstly, thanks for checking out my website! On this page you will find more information on my professional and educational experiences.</p>
+        </div>
+
+        <div style={{textAlign: 'center', padding: '0 20px', maxWidth: 1200, margin: 'auto'}}>
+          <h2 style={{fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Work Experience</h2>
+          {/* <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div> */}
+          {/* <p style={{margin: '35px auto', maxWidth: 650, fontSize: 20}}>Firstly, thanks for checking out my website! On this page you will find more information on my professional and educational experiences.</p> */}
+        </div>
+
+        <Accordion titleAndDescription={workExperience}/>
 
         <div className="workExp" style={{ paddingLeft: "20px" }}>
-          <h2 style={{ textDecoration: "underline" }}>Work Experience</h2>
           <p style={{ fontWeight: "bold" }}>Art Unlimited</p>
           <p>Web Developer: May 2022 - Present</p>
           <p>Web Development Intern: May 2021 - May 2022</p>
