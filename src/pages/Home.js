@@ -11,15 +11,82 @@ import Accordion from '../components/Accordion';
 
 const workExperience = [
   {
-    title: 'Web Developer',
-    description: {
-      bulletOne: 'Develop responsive websites using HTML, CSS, JavaScript, Wordpress, and React.',
-      bulletTwo: 'Continuously innovating web development processes to increase efficiency.',
-      bulletThree: 'Spearheading the development of a team lead role for the web developers.',
-      bulletFour: 'Enhanced and refined over 50 client websites.',
-      bulletFive: 'Built 9 websites as the lead developer from scratch for clients including two full stack websites using React.',
-      bulletSix: 'Created template websites that are marketed by the sales team to prospective clients.'
-    }
+    title: 'Web Developer (Remote)',
+    description: 
+      <div>
+        <p style={{margin: 0}}>Art Unlimited | Angora, Minnesota | May 2022 - Present</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>Develop responsive websites using HTML, CSS, JavaScript, Wordpress, and React.</li>
+          <li>Continuously innovating web development processes to increase efficiency.</li>
+          <li>Spearheading the development of a team lead role for the web developers.</li>
+          <li>Enhanced and refined over 50 client websites.</li>
+          <li>Built 9 websites as the lead developer from scratch for clients including two full stack websites using React.</li>
+          <li>Created template websites that are marketed by the sales team to prospective clients.</li>
+        </ul>
+      </div>,
+    id: 'webDev'
+  },
+  {
+    title: 'Web Development Intern (Remote)',
+    description: 
+      <div>
+        <p style={{margin: 0}}>Art Unlimited | Angora, Minnesota | May 2021 - May 2022</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>Learned the fundamentals of web development through online courses, company training, and working on 25+ client websites. </li>
+          <li>Learned how to perform QA (quality assurance) testing on websites before launching them using BrowserStack.</li>
+          <li>Added functionality to an internal web application using Visual Basic, SQL Server, and ASP.NET.</li>
+        </ul>
+      </div>,
+    id: 'webDevIntern'
+  },
+  {
+    title: 'Shift Supervisor',
+    description: 
+      <div>
+        <p style={{margin: 0}}> Rite Aid | Oak Harbor, Ohio | May 2020 - May 2021</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>Completed tasks ahead of schedule by delegating work to other employees and increasing efficiency of how tasks were approached.</li>
+          <li>Trained new employees.</li>
+        </ul>
+      </div>,
+    id: 'shiftSupervisor'
+  }
+]
+
+const eduExperience = [
+  {
+    title: "Bachelor's Degree in Computer Science, Minor in Mathematics",
+    description: 
+      <div>
+        <p style={{margin: 0}}>Wright State University | Dayton, Ohio | Graduated April 2022</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>In progress...</li>
+        </ul>
+      </div>,
+    id: 'WSU'
+  },
+  {
+    title: 'College Credit Plus Program',
+    description: 
+      <div>
+        <p style={{margin: 0}}>Owens Community College, Terra State Community College | Aug. 2017 - May 2019</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>In progress...</li>
+        </ul>
+      </div>,
+    id: 'CCP'
+  },
+  {
+    title: 'High School Honors Diploma',
+    description: 
+      <div>
+        <p style={{margin: 0}}> Oak Harbor High School | Oak Harbor, Ohio | Graduated 2019</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>In progress...</li>
+          <li>Valedictorian</li>
+        </ul>
+      </div>,
+    id: 'OHHS'
   }
 ]
 
@@ -36,47 +103,38 @@ function Home() {
         </div>
 
         <div style={{textAlign: 'center', padding: '0 20px', maxWidth: 1200, margin: 'auto'}}>
+          <h2 style={{fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Technical Skills</h2>
+        </div>
+
+        <div className='techSkills' style={{padding: '0 20px', textAlign: 'center', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', maxWidth: 430, margin: 'auto'}}>
+          <p>React</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>PHP</p>
+          <p>WordPress</p>
+          <p>Python</p>
+          <p>Java</p>
+          <p>C</p>
+          <p>C++</p>
+        </div>
+
+        <div style={{textAlign: 'center', padding: '0 20px', maxWidth: 1200, margin: 'auto'}}>
           <h2 style={{fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Work Experience</h2>
-          {/* <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div> */}
-          {/* <p style={{margin: '35px auto', maxWidth: 650, fontSize: 20}}>Firstly, thanks for checking out my website! On this page you will find more information on my professional and educational experiences.</p> */}
         </div>
 
-        <Accordion titleAndDescription={workExperience}/>
+        <Accordion accordionList={workExperience}/>
 
-        <div className="workExp" style={{ paddingLeft: "20px" }}>
-          <p style={{ fontWeight: "bold" }}>Art Unlimited</p>
-          <p>Web Developer: May 2022 - Present</p>
-          <p>Web Development Intern: May 2021 - May 2022</p>
-
-          <p style={{ fontWeight: "bold" }}>Wright State University</p>
-          <p>Residential Assistant: January 2022 - Present</p>
-
-          <p style={{ fontWeight: "bold" }}>Rite Aid</p>
-          <p>Shift Supervisor: May 2020 - May 2021</p>
-          <p>Sales Associate: Jan. 2019 - June 2019</p>
-          <br/>
+        <div style={{textAlign: 'center', padding: '0 20px', maxWidth: 1200, margin: 'auto'}}>
+          <h2 style={{fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Educational Experience</h2>
         </div>
-        <div className="techSkills" style={{ paddingLeft: "20px" }}>
-          <h2 style={{ textDecoration: "underline" }}>Technical Skills</h2>
-          <p><span style={{ display: "inline", fontWeight: "bold" }}>Programming Languages:</span> Visual Basic, Python, Java, C++, C, Ruby</p>
-          <p><span style={{ display: "inline", fontWeight: "bold" }}>Web Development:</span> HTML, CSS, JavaScript, PHP, Wordpress, Wix, WP Engine</p>
-          <p><span style={{ display: "inline", fontWeight: "bold" }}>App Development:</span> ASP.NET, React, Swift, Xcode, Android Studio</p>
-          <br/>
-        </div>
-        <div className="edu" style={{ paddingLeft: "20px" }}>
-          <h2 style={{ textDecoration: "underline" }}>Education</h2>
-          <p><span style={{ display: "inline", fontWeight: "bold" }}>Wright State University:</span> Graduated April 2022</p>
-          <p>Bachelors of Science in Computer Science, Minor in Mathematics</p>
 
-          <p><span style={{ display: "inline", fontWeight: "bold" }}>College Credit Plus Program:</span> Aug. 2017 - May 2019</p>
-          <p>Owens Commmunity College</p>
-          <p>Terra State Commmunity College</p>
-
-          <p><span style={{ display: "inline", fontWeight: "bold" }}>Oak Harbor High School:</span> Graduated 2019</p>
-          <p>High School Diploma, Valedictorian</p>
-          <br/><br/>
+        <Accordion accordionList={eduExperience}/>
+  
+        <div style={{textAlign: 'center', margin: '80px 0'}}>
+          <Link to='/about' className='glowOnHover' style={{color: 'white', backgroundColor: 'black', padding: '10px', borderRadius: '8px'}}>See My Projects</Link>
+          <Link to='/about' className='glowOnHover' style={{marginLeft: '20px', color: 'white', backgroundColor: 'black', padding: '10px', borderRadius: '8px'}}>More About Me</Link>
         </div>
-        <Link to="/about" className='glowOnHover' style={{ marginLeft: "20px", color: "white", background: "black", padding: "10px", borderRadius: "8px"}}>More About Me</Link>
       </div>
     );
   }
