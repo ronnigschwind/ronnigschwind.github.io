@@ -12,12 +12,12 @@ function toggleAccordionItem(id) {
 
 const Accordion = (props) => {
     return (
-        <div className='Accordion' style={{padding: '0 20px'}}>
+        <div className='Accordion' style={{padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
             {props.accordionList.map((accordionItem, index) => (
                 <div className='accordionItem' key={index}>
                     <div className='accordionToggleDiv' style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                         <p className='accordionTitle'><strong>{accordionItem.title}</strong></p>
-                        <p id={accordionItem.id + 'Btn'} className='accordionBtn' onClick={() =>  toggleAccordionItem(accordionItem.id)}>+</p>
+                        <p id={accordionItem.id + 'Btn'} className='accordionBtn customCursorPointer' onClick={() =>  toggleAccordionItem(accordionItem.id)}>+</p>
                     </div>
                     <div id={accordionItem.id} className='accordionContent' style={{display: 'none'}}>
                         <div>{accordionItem.description}</div>
