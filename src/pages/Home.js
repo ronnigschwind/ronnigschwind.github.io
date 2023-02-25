@@ -1,10 +1,7 @@
 import { Link} from 'react-router-dom';
 import '../styles/Home.css'
-
-import Banner from '../components/Banner';
 import Hero from '../components/Hero';
 import Accordion from '../components/Accordion';
-
 import weddingPic from '../images/wedding-walk-out.jpg'
 import cats from '../images/gracie-and-june.jpg'
 
