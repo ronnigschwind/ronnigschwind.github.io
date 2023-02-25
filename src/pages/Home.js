@@ -59,9 +59,7 @@ const workExperience = [
 function Home() {
     return (
       <div className="Home">
-        <Banner/>
         <Hero/>
-
         <div style={{padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
           <h2 style={{textAlign: 'center', fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Brief Overview</h2>
           <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div>
@@ -77,7 +75,7 @@ function Home() {
               </p>
               <p>
                 Fast forward to today, I am now a Web Developer with a passion for producing the highest quality websites and web 
-                assplications using primarily React and WordPress. I look forward to taking on a lot more personal projects that I am 
+                applications using primarily React and WordPress. I look forward to taking on a lot more personal projects that I am 
                 interested in during the upcoming months to continue learning new frameworks and technologies to keep my skills sharp
                 and my career opportunities open. 
               </p>
@@ -87,9 +85,11 @@ function Home() {
               {/* textAlign: 'center', justifyContent: 'center', maxWidth: 500, margin: 'auto', padding: '0 20px' */}
               <div className='techSkills' style={{display: 'flex', flexWrap: 'wrap', gap: '10px 20px', maxWidth: 500, marginRight: 'auto'}}>
                 <p>React</p>
+                <p>Next.js</p>
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>JavaScript</p>
+                <p>TypeScript</p>
                 <p>PHP</p>
                 <p>WordPress</p>
                 <p>Python</p>
@@ -99,6 +99,7 @@ function Home() {
                 <p>GitHub</p>
                 <p>MySQL</p>
                 <p>SQL</p>
+                <p>Postgres</p>
               </div>
               <div style={{display: 'flex', paddingTop: 20}}>
                 <img src={weddingPic} style={{maxHeight: 250}} alt='Xavier and I at our wedding'/>
