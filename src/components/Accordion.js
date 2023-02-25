@@ -1,4 +1,4 @@
-import './accordion.css'
+import '../styles/accordion.css'
 
 function toggleAccordionItem(id) {
     if (document.getElementById(id).style.display === 'none') {
