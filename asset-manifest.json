@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.111f5d55.css",
-    "main.js": "/static/js/main.c595a035.js",
-    "static/css/714.da99b55f.chunk.css": "/static/css/714.da99b55f.chunk.css",
-    "static/js/714.7438a90c.chunk.js": "/static/js/714.7438a90c.chunk.js",
+    "main.js": "/static/js/main.8f664259.js",
+    "static/css/627.dbb9c34f.chunk.css": "/static/css/627.dbb9c34f.chunk.css",
+    "static/js/627.8bad2e78.chunk.js": "/static/js/627.8bad2e78.chunk.js",
     "static/css/923.5947536b.chunk.css": "/static/css/923.5947536b.chunk.css",
     "static/js/923.7af803ce.chunk.js": "/static/js/923.7af803ce.chunk.js",
     "static/css/562.5947536b.chunk.css": "/static/css/562.5947536b.chunk.css",
     "static/js/562.45a9f024.chunk.js": "/static/js/562.45a9f024.chunk.js",
-    "static/js/787.824a0aba.chunk.js": "/static/js/787.824a0aba.chunk.js",
     "static/media/wedding-walk-out.jpg": "/static/media/wedding-walk-out.69ba72683ffa5baba0b1.jpg",
     "static/media/gracie-and-june.jpg": "/static/media/gracie-and-june.988a4ca42606171f6e47.jpg",
     "static/media/graduation-headshot.JPG": "/static/media/graduation-headshot.2d5bf88e1b29d06b19ac.JPG",
@@ -16,17 +15,16 @@
     "static/media/cursor-pointer.svg": "/static/media/cursor-pointer.739dacb8bc7fc64f3634.svg",
     "index.html": "/index.html",
     "main.111f5d55.css.map": "/static/css/main.111f5d55.css.map",
-    "main.c595a035.js.map": "/static/js/main.c595a035.js.map",
-    "714.da99b55f.chunk.css.map": "/static/css/714.da99b55f.chunk.css.map",
-    "714.7438a90c.chunk.js.map": "/static/js/714.7438a90c.chunk.js.map",
+    "main.8f664259.js.map": "/static/js/main.8f664259.js.map",
+    "627.dbb9c34f.chunk.css.map": "/static/css/627.dbb9c34f.chunk.css.map",
+    "627.8bad2e78.chunk.js.map": "/static/js/627.8bad2e78.chunk.js.map",
     "923.5947536b.chunk.css.map": "/static/css/923.5947536b.chunk.css.map",
     "923.7af803ce.chunk.js.map": "/static/js/923.7af803ce.chunk.js.map",
     "562.5947536b.chunk.css.map": "/static/css/562.5947536b.chunk.css.map",
-    "562.45a9f024.chunk.js.map": "/static/js/562.45a9f024.chunk.js.map",
-    "787.824a0aba.chunk.js.map": "/static/js/787.824a0aba.chunk.js.map"
+    "562.45a9f024.chunk.js.map": "/static/js/562.45a9f024.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.111f5d55.css",
-    "static/js/main.c595a035.js"
+    "static/js/main.8f664259.js"
   ]
 }
