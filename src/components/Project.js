@@ -1,4 +1,4 @@
-import '../styles/Hero.css';
+import '../styles/project.css';
 
 function Project(props) {
   return (

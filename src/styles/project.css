@@ -1,0 +1,12 @@
+@media (max-width: 950px) {
+  .Project {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px !important;
+    gap: 20px !important;
+  }
+  .Project img {
+    max-width: 100% !important;
+  }
+}
