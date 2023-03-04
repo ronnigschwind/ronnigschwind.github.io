@@ -23,15 +23,28 @@
 }
 
 @media (max-width: 830px) {
+    .Hero {
+        padding-top: 0;
+    }
     .heroContent {
         display: block;
     }
     .heroText {
-        width: 100%;
-        padding-top: 0;
+        width: calc(100% - 40px);
+        padding: 0 20px;
     }
     .heroImgDiv {
         margin: 90px auto 0;
         width: 100%;
+    }
+}
+
+@media (max-width: 410px) {
+    .auBtn {
+        display: inline-block;
+        width: unset;
+        height: unset;
+        padding: 5px 10px !important;
+        line-height: normal;
     }
 }

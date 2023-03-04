@@ -17,6 +17,6 @@
         max-width: 100% !important;
     }
     .codingHelpers {
-        display: none;
+        display: none !important;
     }
 }

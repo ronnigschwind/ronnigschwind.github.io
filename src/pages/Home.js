@@ -101,8 +101,9 @@ function Home() {
                 <div className='codingHelpers' style={{display: 'flex', paddingTop: 20}}>
                   <img src={weddingPic} style={{maxHeight: 250}} alt='Xavier and I at our wedding'/>
                   <img src={cats} style={{maxHeight: 250}} alt='My pet cats'/>
-                </div>
+    
                 <p style={{margin: '5px 0 0'}}>My coding helpers: Xavier my husband (he also works remotely as a Software/Application Developer) and Gracie & June our cats! ☺</p>
+                </div>
               </div>
             </div>
           </div>
