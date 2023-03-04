@@ -60,7 +60,7 @@ function Home() {
         <div style={{padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
           <h2 style={{textAlign: 'center', fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Brief Overview</h2>
           <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div>
-          <div style={{display: 'flex', gap: 70, fontSize: 20}}>
+          <div className='aboutAndSkills' style={{display: 'flex', gap: 70, fontSize: 20}}>
             <div style={{maxWidth: 575}}>
               <h3 style={{fontSize: '30px', fontFamily: 'monospace', marginBottom: 0}}>About Me</h3>
               <p>Firstly, thanks for checking out my website!</p>
@@ -77,9 +77,8 @@ function Home() {
                 and my career opportunities open. 
               </p>
             </div>
-            <div style={{maxWidth: 575}}>
+            <div className='mobileMW100' style={{maxWidth: 575}}>
               <h3 style={{fontSize: '30px', fontFamily: 'monospace', marginBottom: 20}}>Technical Skills</h3>
-              {/* textAlign: 'center', justifyContent: 'center', maxWidth: 500, margin: 'auto', padding: '0 20px' */}
               <div className='techSkills' style={{display: 'flex', flexWrap: 'wrap', gap: '10px 20px', maxWidth: 500, marginRight: 'auto'}}>
                 <p>React</p>
                 <p>Next.js</p>
@@ -98,11 +97,13 @@ function Home() {
                 <p>SQL</p>
                 <p>Postgres</p>
               </div>
-              <div style={{display: 'flex', paddingTop: 20}}>
-                <img src={weddingPic} style={{maxHeight: 250}} alt='Xavier and I at our wedding'/>
-                <img src={cats} style={{maxHeight: 250}} alt='My pet cats'/>
+              <div>
+                <div className='codingHelpers' style={{display: 'flex', paddingTop: 20}}>
+                  <img src={weddingPic} style={{maxHeight: 250}} alt='Xavier and I at our wedding'/>
+                  <img src={cats} style={{maxHeight: 250}} alt='My pet cats'/>
+                </div>
+                <p style={{margin: '5px 0 0'}}>My coding helpers: Xavier my husband (he also works remotely as a Software/Application Developer) and Gracie & June our cats! ☺</p>
               </div>
-              <p style={{margin: '5px 0 0'}}>My coding helpers: Xavier my husband (he also works remotely as a Software/Application Developer) and Gracie & June our cats! ☺</p>
             </div>
           </div>
         </div>

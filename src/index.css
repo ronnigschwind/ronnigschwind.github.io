@@ -1,5 +1,6 @@
 html {
   cursor: url('./images/cursor.svg') 15 0, url('./images/cursor.svg') 15 0, auto;
+  overflow-x: hidden;
 }
 
 body {

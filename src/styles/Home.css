@@ -6,3 +6,17 @@
     border-radius: 8px;
     box-shadow: #29b0ff 2px 2px 8px;
 }
+
+@media (max-width: 960px) {
+    .aboutAndSkills {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 !important;
+    }
+    .mobileMW100 {
+        max-width: 100% !important;
+    }
+    .codingHelpers {
+        display: none;
+    }
+}
