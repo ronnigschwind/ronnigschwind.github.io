@@ -1,5 +1,3 @@
-// import { useRef } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Home.css'
 import Hero from '../components/Hero';
 import Accordion from '../components/Accordion';
@@ -15,10 +13,6 @@ import gorman from '../images/gorman-roofing.webp'
 import reliant from '../images/reliant.webp'
 import whiteWilderness from '../images/white-wilderness.webp'
 import goodNeighbors from '../images/good-neighbors.webp'
-
-// let contactRef = useRef();
-// const executeScroll = () => contactRef.current.scrollIntoView({behavior: 'smooth', block: 'start'})
-// executeScroll();
 
 const projectsList = [
   {
