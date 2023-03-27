@@ -9,7 +9,6 @@
     display: inline-block; 
     margin-right: 100px; 
     color: white;
-    /* height: 100px; */
 }
 .headerImg {
     width: 50%;
@@ -29,7 +28,13 @@
         width: 100%;
     }
 }
-
+@media (max-width: 767px) {
+    .headerName {
+        display: block;
+        margin-top: 0;
+        padding-top: 25px;
+    }
+}
 @media (max-width: 420px) {
     .headerLinks {
         padding-bottom: 25px;

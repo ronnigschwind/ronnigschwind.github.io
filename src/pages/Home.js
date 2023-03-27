@@ -1,9 +1,81 @@
-import { Link} from 'react-router-dom';
+// import { useRef } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Home.css'
 import Hero from '../components/Hero';
 import Accordion from '../components/Accordion';
 import weddingPic from '../images/wedding-walk-out.jpg'
 import cats from '../images/gracie-and-june.jpg'
+import Project from '../components/Project';
+import artUnlimited from '../images/art-unlimited.webp'
+import victors from '../images/victors.webp'
+import irelandContracting from '../images/ireland-contracting.webp'
+import roofPro from '../images/roof-pro.webp'
+import arrowheadLibrary from '../images/arrowhead-library.webp'
+import gorman from '../images/gorman-roofing.webp'
+import reliant from '../images/reliant.webp'
+import whiteWilderness from '../images/white-wilderness.webp'
+import goodNeighbors from '../images/good-neighbors.webp'
+
+// let contactRef = useRef();
+// const executeScroll = () => contactRef.current.scrollIntoView({behavior: 'smooth', block: 'start'})
+// executeScroll();
+
+const projectsList = [
+  {
+    img: artUnlimited,
+    title: 'Art Unlimited React Web App',
+    description: 'Redid the previous Art Unlimited website that was done previously in WordPress in React with an entirely new design.',
+    link: 'https://www.artunlimitedusa.com/',
+  },
+  {
+    img: victors,
+    title: 'Victors Home Solutions React Web App',
+    description: 'Redid the previous Victors Home Solutions website that was done previously in WordPress in React with an entirely new design.',
+    link: 'https://www.victors.com/',
+  },
+  {
+    img: irelandContracting,
+    title: 'Ireland Contracting WordPress Website',
+    description: 'Created a new website using WordPress for Ireland Contracting.',
+    link: 'https://www.irelandcontracting.com/',
+  },
+  {
+    img: roofPro,
+    title: 'RoofPro WordPress Website',
+    description: 'Created a new website using WordPress used for marketing to roofing companies.',
+    link: 'https://roofpro.artunlimitedusa.com/',
+  },
+  {
+    img: arrowheadLibrary,
+    title: 'Arrowhead Library WordPress Website',
+    description: 'Created a new website using WordPress for Arrowhead Library.',
+    link: 'https://www.alslib.info/',
+  },
+  {
+    img: gorman,
+    title: 'Gorman Roofing WordPress Website',
+    description: 'Created a new website using WordPress for Gorman Roofing.',
+    link: 'https://www.gormanroofing.com/',
+  },
+  {
+    img: reliant,
+    title: 'Reliant Roofing WordPress Website',
+    description: 'Created a new website using WordPress for Reliant Roofing.',
+    link: 'https://www.reliantroofing.com/',
+  },
+  {
+    img: whiteWilderness,
+    title: 'White Wilderness WordPress Website',
+    description: 'Created a new website using WordPress for White Wilderness.',
+    link: 'https://www.whitewilderness.com/',
+  },
+  {
+    img: goodNeighbors,
+    title: 'Good Neighbors EMS WordPress Website',
+    description: 'Created a new website using WordPress for Good Neighbors EMS.',
+    link: 'https://www.goodneighborsems.com/',
+  }
+]
 
 // purple -> #7e29ff
 // blue -> #29b0ff
@@ -58,11 +130,11 @@ function Home() {
       <div className="Home">
         <Hero/>
         <div style={{padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
-          <h2 style={{textAlign: 'center', fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Brief Overview</h2>
+          <h2 style={{textAlign: 'center', fontSize: '50px', marginTop: '75px'}}>Brief Overview</h2>
           <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div>
           <div className='aboutAndSkills' style={{display: 'flex', gap: 70, fontSize: 20}}>
             <div style={{maxWidth: 575}}>
-              <h3 style={{fontSize: '30px', fontFamily: 'monospace', marginBottom: 0}}>About Me</h3>
+              <h3 style={{fontSize: '30px', marginBottom: 0}}>About Me</h3>
               <p>Firstly, thanks for checking out my website!</p>
               <p>
                 I am a passionate developer with a wide range of programming experience. I first developed a passion for programming 
@@ -78,7 +150,7 @@ function Home() {
               </p>
             </div>
             <div className='mobileMW100' style={{maxWidth: 575}}>
-              <h3 style={{fontSize: '30px', fontFamily: 'monospace', marginBottom: 20}}>Technical Skills</h3>
+              <h3 style={{fontSize: '30px', marginBottom: 20}}>Technical Skills</h3>
               <div className='techSkills' style={{display: 'flex', flexWrap: 'wrap', gap: '10px 20px', maxWidth: 500, marginRight: 'auto'}}>
                 <p>React</p>
                 <p>Next.js</p>
@@ -111,15 +183,25 @@ function Home() {
           </div>
         </div>
 
-        <div style={{textAlign: 'center', padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
-          <h2 style={{fontSize: '40px', marginTop: '75px', fontFamily: 'monospace'}}>Work Experience</h2>
+        <h2 id="projects" style={{textAlign: 'center', padding: '50px 20px 0', fontSize: 50, maxWidth: 600, margin: 'auto'}}>Check Out Some of My Latest Projects!</h2>
+        {projectsList.map((project, index) => (
+          <Project key={index} img={project.img} title={project.title} description={project.description} link={project.link}/>
+        ))}
+
+        <div id="work-experience" style={{textAlign: 'center', padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
+          <h2 style={{fontSize: 50, marginTop: 75, marginBottom: 50}}>Work Experience</h2>
         </div>
 
         <Accordion accordionList={workExperience}/>
   
-        <div style={{textAlign: 'center', margin: '80px 0'}}>
-          <Link to='/projects' className='glowOnHover' style={{color: 'white', backgroundColor: 'black', padding: '10px', borderRadius: '8px'}}>See My Projects</Link>
-          <Link to='/contact' className='glowOnHover' style={{marginLeft: '20px', color: 'white', backgroundColor: 'black', padding: '10px', borderRadius: '8px'}}>Connect With Me</Link>
+        <div id="contact" className="Contact" style={{textAlign: 'center', maxWidth: 800, margin: 'auto', padding: '0 20px 50px'}}>
+          <h2 style={{textAlign: 'center', padding: '50px 0 10px', fontSize: 50, margin: 'auto'}}>Contact Me For Career or Personal Project Opportunities</h2>
+          <p>
+            I am currently looking for a new career opportunity and would love to connect if you are in need of a full-time, contract, or freelance developer. Feel free to 
+            reach out by email or connect with me on LinkedIn and I'd love to chat. Thank you for your interest in me!
+          </p>
+          <p style={{ display: "inline-block", paddingRight: "3px"}}>Email: <a href="mailto:ronnigschwind@gmail.com<">ronnigschwind@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/ronni-gschwind-0a7199177/" target="_blank" rel='noreferrer'>https://www.linkedin.com/in/ronni-gschwind-0a7199177/</a></p>
         </div>
       </div>
     );
