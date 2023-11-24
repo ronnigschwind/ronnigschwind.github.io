@@ -6,13 +6,14 @@ import cats from '../images/gracie-and-june.jpg'
 import Project from '../components/Project';
 import artUnlimited from '../images/art-unlimited.webp'
 import victors from '../images/victors.webp'
-import irelandContracting from '../images/ireland-contracting.webp'
 import roofPro from '../images/roof-pro.webp'
-import arrowheadLibrary from '../images/arrowhead-library.webp'
 import gorman from '../images/gorman-roofing.webp'
-import reliant from '../images/reliant.webp'
 import whiteWilderness from '../images/white-wilderness.webp'
 import goodNeighbors from '../images/good-neighbors.webp'
+import mossRoofing from '../images/moss-roofing.webp'
+import threejm from '../images/3jm-exteriors.webp'
+import sutryk from '../images/sutryk-and-son.webp'
+import vanguardRoofing from '../images/vanguard-roofing.webp'
 
 const projectsList = [
   {
@@ -28,10 +29,28 @@ const projectsList = [
     link: 'https://www.victors.com/',
   },
   {
-    img: irelandContracting,
-    title: 'Ireland Contracting WordPress Website',
-    description: 'Created a new website using WordPress for Ireland Contracting.',
-    link: 'https://www.irelandcontracting.com/',
+    img: mossRoofing,
+    title: 'Moss Roofing WordPress Website',
+    description: 'Created a new website using WordPress for Moss Roofing.',
+    link: 'https://www.mossroofing.com/',
+  },
+  {
+    img: threejm,
+    title: '3JM Exteriors WordPress Website',
+    description: 'Created a new website using WordPress for 3JM Exteriors.',
+    link: 'https://www.3jmext.com/',
+  },
+  {
+    img: sutryk,
+    title: 'Sutryk & Son WordPress Website',
+    description: 'Created a new website using WordPress for Sutryk & Son.',
+    link: 'https://www.sutrykandson.com/',
+  },
+  {
+    img: vanguardRoofing,
+    title: 'Vanguard Roofing WordPress Website',
+    description: 'Created a new website using WordPress for Vanguard Roofing.',
+    link: 'https://www.vanguardroofing.com/',
   },
   {
     img: roofPro,
@@ -40,22 +59,10 @@ const projectsList = [
     link: 'https://roofpro.artunlimitedusa.com/',
   },
   {
-    img: arrowheadLibrary,
-    title: 'Arrowhead Library WordPress Website',
-    description: 'Created a new website using WordPress for Arrowhead Library.',
-    link: 'https://www.alslib.info/',
-  },
-  {
     img: gorman,
     title: 'Gorman Roofing WordPress Website',
     description: 'Created a new website using WordPress for Gorman Roofing.',
     link: 'https://www.gormanroofing.com/',
-  },
-  {
-    img: reliant,
-    title: 'Reliant Roofing WordPress Website',
-    description: 'Created a new website using WordPress for Reliant Roofing.',
-    link: 'https://www.reliantroofing.com/',
   },
   {
     img: whiteWilderness,
@@ -77,10 +84,24 @@ const projectsList = [
 
 const workExperience = [
   {
+    title: 'Web Developer Team Lead (Remote)',
+    description: 
+      <div>
+        <p style={{margin: 0}}>Art Unlimited | Angora, Minnesota | October 2023 - Present</p>
+        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
+          <li>Be proactive in finding ways to improve team efficiency.</li>
+          <li>Answer general and technical questions for the Web and Software Developers.</li>
+          <li>Assist supervisor with assigning tasks and reviewing capacities.</li>
+          <li>Keep abreast of the latest web development best practices.</li>
+        </ul>
+      </div>,
+    id: 'webDevTeamLead'
+  },
+  {
     title: 'Web Developer (Remote)',
     description: 
       <div>
-        <p style={{margin: 0}}>Art Unlimited | Angora, Minnesota | May 2022 - Present</p>
+        <p style={{margin: 0}}>Art Unlimited | Angora, Minnesota | May 2022 - October 2023</p>
         <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
           <li>Develop responsive websites using HTML, CSS, JavaScript, Wordpress, and React.</li>
           <li>Continuously innovating web development processes to increase efficiency.</li>
@@ -104,18 +125,6 @@ const workExperience = [
         </ul>
       </div>,
     id: 'webDevIntern'
-  },
-  {
-    title: 'Shift Supervisor',
-    description: 
-      <div>
-        <p style={{margin: 0}}> Rite Aid | Oak Harbor, Ohio | May 2020 - May 2021</p>
-        <ul style={{paddingLeft: 15, margin: '10px 0 5px'}}> 
-          <li>Completed tasks ahead of schedule by delegating work to other employees and increasing efficiency of how tasks were approached.</li>
-          <li>Trained new employees.</li>
-        </ul>
-      </div>,
-    id: 'shiftSupervisor'
   }
 ]
 
@@ -137,10 +146,9 @@ function Home() {
                 my Junior year of high school, and in college I learned Java, Python, C, C++, among many other things. 
               </p>
               <p>
-                Fast forward to today, I am now a Web Developer with a passion for producing the highest quality websites and web 
-                applications using primarily React and WordPress. I look forward to taking on a lot more personal projects that I am 
-                interested in during the upcoming months to continue learning new frameworks and technologies to keep my skills sharp
-                and my career opportunities open. 
+                Fast forward to today, I am now a Web Developer Team Lead with a passion for producing the highest quality websites 
+                using primarily React and WordPress and continuously looking to improve efficiencies amongst the other developers 
+                (including myself) on my team.
               </p>
             </div>
             <div className='mobileMW100' style={{maxWidth: 575}}>
@@ -161,7 +169,6 @@ function Home() {
                 <p>GitHub</p>
                 <p>MySQL</p>
                 <p>SQL</p>
-                <p>Postgres</p>
               </div>
               <div>
                 <div className='codingHelpers'>

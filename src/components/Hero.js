@@ -10,7 +10,7 @@ function Hero() {
         <div className="heroContent">
             <div className="heroText">
                 <h1 style={{ width: "100%", color: "white" }}>Hey, I'm Ronni Gschwind</h1>
-                <h2 style={{ width: "100%", color: "white", paddingBotttom: "10px", lineHeight: "2" }}>Web Developer at &nbsp;
+                <h2 style={{ width: "100%", color: "white", paddingBotttom: "10px", lineHeight: "2" }}>Web Developer Team Lead at &nbsp;
                 <a href="https://www.artunlimitedusa.com/" className='glowOnHover auBtn' target="_blank" rel="noreferrer" style={{ color: "white", background: "black", 
                 padding: "5px", borderRadius: "8px" }}>Art Unlimited</a> </h2>
                 <div style={{ marginTop: "40px" }}>
