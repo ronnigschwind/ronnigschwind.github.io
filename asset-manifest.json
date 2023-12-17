@@ -1,12 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.83ccbcd2.css",
-    "main.js": "/static/js/main.6d14769d.js",
-    "static/css/649.09fc36fc.chunk.css": "/static/css/649.09fc36fc.chunk.css",
-    "static/js/649.0e76aab5.chunk.js": "/static/js/649.0e76aab5.chunk.js",
-    "static/css/923.90f5f302.chunk.css": "/static/css/923.90f5f302.chunk.css",
-    "static/js/923.78a229b4.chunk.js": "/static/js/923.78a229b4.chunk.js",
-    "static/js/562.89a0ae89.chunk.js": "/static/js/562.89a0ae89.chunk.js",
+    "main.css": "/static/css/main.bccecb0c.css",
+    "main.js": "/static/js/main.03a206bb.js",
+    "static/css/489.8db81568.chunk.css": "/static/css/489.8db81568.chunk.css",
+    "static/js/489.ff3d519d.chunk.js": "/static/js/489.ff3d519d.chunk.js",
     "static/media/wedding-walk-out.jpg": "/static/media/wedding-walk-out.69ba72683ffa5baba0b1.jpg",
     "static/media/gracie-and-june.jpg": "/static/media/gracie-and-june.988a4ca42606171f6e47.jpg",
     "static/media/graduation-headshot.JPG": "/static/media/graduation-headshot.2d5bf88e1b29d06b19ac.JPG",
@@ -23,16 +20,13 @@
     "static/media/cursor.svg": "/static/media/cursor.58f6c44440a2ae4aafb8.svg",
     "static/media/cursor-pointer.svg": "/static/media/cursor-pointer.739dacb8bc7fc64f3634.svg",
     "index.html": "/index.html",
-    "main.83ccbcd2.css.map": "/static/css/main.83ccbcd2.css.map",
-    "main.6d14769d.js.map": "/static/js/main.6d14769d.js.map",
-    "649.09fc36fc.chunk.css.map": "/static/css/649.09fc36fc.chunk.css.map",
-    "649.0e76aab5.chunk.js.map": "/static/js/649.0e76aab5.chunk.js.map",
-    "923.90f5f302.chunk.css.map": "/static/css/923.90f5f302.chunk.css.map",
-    "923.78a229b4.chunk.js.map": "/static/js/923.78a229b4.chunk.js.map",
-    "562.89a0ae89.chunk.js.map": "/static/js/562.89a0ae89.chunk.js.map"
+    "main.bccecb0c.css.map": "/static/css/main.bccecb0c.css.map",
+    "main.03a206bb.js.map": "/static/js/main.03a206bb.js.map",
+    "489.8db81568.chunk.css.map": "/static/css/489.8db81568.chunk.css.map",
+    "489.ff3d519d.chunk.js.map": "/static/js/489.ff3d519d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83ccbcd2.css",
-    "static/js/main.6d14769d.js"
+    "static/css/main.bccecb0c.css",
+    "static/js/main.03a206bb.js"
   ]
 }
