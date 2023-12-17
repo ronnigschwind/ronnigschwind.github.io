@@ -10,4 +10,5 @@
 
 .footerLinks a { 
     margin-bottom: 20px !important;
+    font-weight: bold;
 }

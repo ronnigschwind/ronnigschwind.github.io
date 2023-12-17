@@ -3,7 +3,8 @@
     background-color: #7e29ff;
 }
 .headerLinks a {
-    color: white;;
+    color: white;
+    font-weight: bold;
 }
 .headerName {
     display: inline-block; 

@@ -10,19 +10,15 @@ function Hero() {
         <div className="heroContent">
             <div className="heroText">
                 <h1 style={{ width: "100%", color: "white" }}>Hey, I'm Ronni Gschwind</h1>
-                <h2 style={{ width: "100%", color: "white", paddingBotttom: "10px", lineHeight: "2" }}>Web Developer Team Lead at &nbsp;
+                <h2 style={{ width: "100%", color: "white", paddingBotttom: 10, lineHeight: "2" }}>Web Developer Team Lead at &nbsp;
                 <a href="https://www.artunlimitedusa.com/" className='glowOnHover auBtn' target="_blank" rel="noreferrer" style={{ color: "white", background: "black", 
-                padding: "5px", borderRadius: "8px" }}>Art Unlimited</a> </h2>
-                <div style={{ marginTop: "40px" }}>
-                    <Link to="#projects" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", 
-                    marginTop: "10px", fontWeight: "bold" }}>Check out my projects</Link>
-                </div>
+                display: 'inline-block', borderRadius: 8, marginTop: 10 }}>Art Unlimited</a> </h2>
             </div>
             <div className="heroImgDiv">
             <img src={Me} style={{boxShadow: "15px 15px 10px #01a4ff"}} alt="me"/>
             </div>
         </div>
-        <Link to="#contact" className='glowOnHover' style={{ color: "white", padding: "10px", borderRadius: "8px", backgroundColor: "black", fontWeight: "bold" }}>Contact Me</Link>
+        <Link to="#projects" className='glowOnHover' style={{ color: "white", padding: 10, borderRadius: 8, backgroundColor: "black" }}>Check out my projects</Link>
     </div>
     );
 }

@@ -133,11 +133,11 @@ function Home() {
       <div className="Home">
         <Hero/>
         <div style={{padding: '0 20px', maxWidth: 1050, margin: 'auto'}}>
-          <h2 style={{textAlign: 'center', fontSize: '50px', marginTop: '75px'}}>Brief Overview</h2>
-          <div style={{maxWidth: '100px', height: '8px', margin: 'auto', backgroundColor: '#29b0ff', borderRadius: '5px'}}></div>
+          <h2 style={{textAlign: 'center', fontSize: 50, marginTop: 75}}>Brief Overview</h2>
+          <div style={{maxWidth: 100, height: 8, margin: 'auto', backgroundColor: '#29b0ff', borderRadius: 5}}></div>
           <div className='aboutAndSkills' style={{display: 'flex', gap: 70, fontSize: 20}}>
             <div style={{maxWidth: 575}}>
-              <h3 style={{fontSize: '30px', marginBottom: 0}}>About Me</h3>
+              <h3 style={{fontSize: 30, marginBottom: 0}}>About Me</h3>
               <p>Firstly, thanks for checking out my website!</p>
               <p>
                 I am a passionate developer with a wide range of programming experience. I first developed a passion for programming 
@@ -152,7 +152,7 @@ function Home() {
               </p>
             </div>
             <div className='mobileMW100' style={{maxWidth: 575}}>
-              <h3 style={{fontSize: '30px', marginBottom: 20}}>Technical Skills</h3>
+              <h3 style={{fontSize: 30, marginBottom: 20}}>Technical Skills</h3>
               <div className='techSkills' style={{display: 'flex', flexWrap: 'wrap', gap: '10px 20px', maxWidth: 500, marginRight: 'auto'}}>
                 <p>React</p>
                 <p>Next.js</p>
@@ -177,7 +177,7 @@ function Home() {
                     <img src={cats} style={{maxHeight: 250}} alt='My pet cats'/>
                   </div>
     
-                <p style={{margin: '5px 0 0'}}>My coding helpers: Xavier my husband (he also works remotely as a Software/Application Developer) and Gracie & June our cats! ☺</p>
+                  <p style={{margin: '5px 0 0'}}>My coding helpers: Xavier my husband (he also works remotely as a Software/Application Developer) and Gracie & June our cats! ☺</p>
                 </div>
               </div>
             </div>
